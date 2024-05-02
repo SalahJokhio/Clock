@@ -9,7 +9,6 @@ setInterval(function() {
     var currentMinutes = currentDate.getMinutes();
     var currentSeconds = currentDate.getSeconds();
 
-    // Add leading zero for single-digit hours, minutes, and seconds
     currentHour = currentHour < 10 ? '0' + currentHour : currentHour;
     currentMinutes = currentMinutes < 10 ? '0' + currentMinutes : currentMinutes;
     currentSeconds = currentSeconds < 10 ? '0' + currentSeconds : currentSeconds;
